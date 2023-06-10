@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		184754012A34923C00622D44 /* MIValidations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184754002A34923C00622D44 /* MIValidations.swift */; };
+		184754032A34987D00622D44 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184754022A34987D00622D44 /* LogInViewController.swift */; };
+		184754082A349B6F00622D44 /* ExtensionUIStoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184754052A349B6F00622D44 /* ExtensionUIStoryBoard.swift */; };
+		184754092A349B6F00622D44 /* ExtensionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184754062A349B6F00622D44 /* ExtensionUIView.swift */; };
+		1847540A2A349B6F00622D44 /* ExtensionUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184754072A349B6F00622D44 /* ExtensionUITextField.swift */; };
 		1866ECEC2A3456440083B2C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866ECEB2A3456440083B2C9 /* AppDelegate.swift */; };
 		1866ECEE2A3456440083B2C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866ECED2A3456440083B2C9 /* SceneDelegate.swift */; };
-		1866ECF02A3456440083B2C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866ECEF2A3456440083B2C9 /* ViewController.swift */; };
+		1866ECF02A3456440083B2C9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866ECEF2A3456440083B2C9 /* SignUpViewController.swift */; };
 		1866ECF32A3456440083B2C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1866ECF12A3456440083B2C9 /* Main.storyboard */; };
 		1866ECF52A3456460083B2C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1866ECF42A3456460083B2C9 /* Assets.xcassets */; };
 		1866ECF82A3456460083B2C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1866ECF62A3456460083B2C9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		184754002A34923C00622D44 /* MIValidations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MIValidations.swift; sourceTree = "<group>"; };
+		184754022A34987D00622D44 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		184754052A349B6F00622D44 /* ExtensionUIStoryBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUIStoryBoard.swift; sourceTree = "<group>"; };
+		184754062A349B6F00622D44 /* ExtensionUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUIView.swift; sourceTree = "<group>"; };
+		184754072A349B6F00622D44 /* ExtensionUITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUITextField.swift; sourceTree = "<group>"; };
 		1866ECE82A3456440083B2C9 /* SignUpValidation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignUpValidation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1866ECEB2A3456440083B2C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1866ECED2A3456440083B2C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1866ECEF2A3456440083B2C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1866ECEF2A3456440083B2C9 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		1866ECF22A3456440083B2C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1866ECF42A3456460083B2C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1866ECF72A3456460083B2C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +47,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		184754042A349B6E00622D44 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				184754052A349B6F00622D44 /* ExtensionUIStoryBoard.swift */,
+				184754062A349B6F00622D44 /* ExtensionUIView.swift */,
+				184754072A349B6F00622D44 /* ExtensionUITextField.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		1866ECDF2A3456440083B2C9 = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +76,13 @@
 		1866ECEA2A3456440083B2C9 /* SignUpValidation */ = {
 			isa = PBXGroup;
 			children = (
+				184754042A349B6E00622D44 /* Extensions */,
+				184754002A34923C00622D44 /* MIValidations.swift */,
 				1866ECEB2A3456440083B2C9 /* AppDelegate.swift */,
 				1866ECED2A3456440083B2C9 /* SceneDelegate.swift */,
-				1866ECEF2A3456440083B2C9 /* ViewController.swift */,
+				1866ECEF2A3456440083B2C9 /* SignUpViewController.swift */,
 				1866ECF12A3456440083B2C9 /* Main.storyboard */,
+				184754022A34987D00622D44 /* LogInViewController.swift */,
 				1866ECF42A3456460083B2C9 /* Assets.xcassets */,
 				1866ECF62A3456460083B2C9 /* LaunchScreen.storyboard */,
 				1866ECF92A3456460083B2C9 /* Info.plist */,
@@ -138,8 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1866ECF02A3456440083B2C9 /* ViewController.swift in Sources */,
+				1866ECF02A3456440083B2C9 /* SignUpViewController.swift in Sources */,
+				1847540A2A349B6F00622D44 /* ExtensionUITextField.swift in Sources */,
 				1866ECEC2A3456440083B2C9 /* AppDelegate.swift in Sources */,
+				184754092A349B6F00622D44 /* ExtensionUIView.swift in Sources */,
+				184754082A349B6F00622D44 /* ExtensionUIStoryBoard.swift in Sources */,
+				184754012A34923C00622D44 /* MIValidations.swift in Sources */,
+				184754032A34987D00622D44 /* LogInViewController.swift in Sources */,
 				1866ECEE2A3456440083B2C9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
